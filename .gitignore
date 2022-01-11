@@ -2,8 +2,7 @@ nohup.out
 *.db
 
 # Credentials
-hikma-health-098c787f1bcd.json
-hikma-health-22d28719dd41.json
+hikmahealth-d196cadad1c4.json
 
 # Mac stuff
 .DS_Store
