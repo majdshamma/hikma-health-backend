@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hikmahealth",
+  "private_key_id": "d196cadad1c4e84f29f88de49395ce88c198da03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC18AJtw0dPS7SQ\nqC2TPF5t4auNBZB3GwIDL2r0H1xwEICF0Xzz7Yf1yJA0HRzMlFBKAdC3l6DKFuJG\nDbpOPHlYaOPEe3rdI8YZdLqjBWGPS2XbkdjOlTLepue/9qK2rvfy2MqfIdICR1It\nPXpIEetnvXhwSGUx3ctsDm5qhc765QrKxrzU+9DOxUxdIt6ZWtYtlQ5gv9ruPAW8\nQ9vkD8A0pmyYafxgnGvjVdeM8AGIeHDpeDQYzvTHy360IDKnNKPGprufZDLMC4dC\nsmtZhfuzHTMQjHX6fhuPlrbgBN7K74Cjfn7g8xZu2ZM1D8ezwjp7fjkzxOWs00L3\n50m9vSlfAgMBAAECggEAAfxEbuGp2I2XCMKLnvVvmgFfQz/jeifPkYngHQJumnIa\n7axfHVfLycKURtMhalM0YRjrEKADyxaZBhVpLSh7PcqQsQRO2wZkdginnXnQMY43\nWsvHp0XWFgE0dPUCVhsdEE12na/ytHoGOdLjSejHbMbYokHGiahRgsu6P3eGK1kY\nWciy522MxFF+luOyFP25/XQuf72Zs9914ctnMGvzjcDquanWbeulUw/RavzGQ9Mg\nUlhyp8esaIIChxq4CqrZkszaKRiAhRliqvcob4Drwo0kF94xNUoK2asTRuE48VXt\nvy5adGKHkekyiSI14ztUdVXuupOp8iEE0YVXFXuVsQKBgQDjnVzET7RLfP7ovCGg\nhrxkl8m5G1zyIyQkmrywk5Y/hcadKyIItlyXRhZDCQQbczGQtO20R4Jy911wfcDt\n/WmZYNrop6IcgjCs5U6JEx9hETZZedPn/SdiqNw8wRRFJ/2IsOIjNBu0ujhcNnPh\n17Rxma+D5sNBh93LfTckxtjRSQKBgQDMoGVlhSZCXV0WRY9snvBr0243uBcgGzdF\nhrnfuCHpPswdQKDrECxhhhffAZdMqmcBprZU6X1ATzCroyp/4Td6h2vf8BGwk/O7\njZSmQqlAUyfMgQtHdrErOUduhRHrqva4+WBBUCNAOdaVu6pWpqyAHCTJ4TANhWxK\n7sUlBx5NZwKBgQCInP972DbnhAtfVuN7/MKAQdZSYskDj/H2gmU0OjDYyYsu9B+G\nSSYDqY5dB8FOVHJwXxe4t57lL/EGPoQYk5vY8hgRweN75uweKbdccHzJ/tG3HHcC\na6BDCAS/9kcbRuhWLYxdAr6KV6bSOeCNsbDc6hg9O7j/0PNfWjVJvouN+QKBgQCf\n+w8LTgxZenEaxouZmrHRO15ChdTeryiJXQnZVTZ+CzC99hdZcC2imZn0KmRF9jvO\nWK7YuCvKqZ8dsdW6YTRkwZefXywVZ7b4/Xooepmkxt6ozoMo/i0J5CBq0fLu051N\nhPqyVZsZzZ5tNmm4kVrwVhCVHU/aYmQGOaM8jdItJQKBgFuowHHYGZPcnnynugER\n8Cmd/Zes7mCqdNn11NQXzHpJGpj4Mp028uc1SrZJtejAb9sEwGPV0n5H3NYO08Lv\nU1MM919RRy6lCNZeRZF5T5bP+8CAIeQLNvdzXh3SnSkBKfOFaxb2hP1qJNBbolCB\nzB8EOWrYb+fBdpUPoKqr4AKM\n-----END PRIVATE KEY-----\n",
+  "client_email": "hikma-app-service-account@hikmahealth.iam.gserviceaccount.com",
+  "client_id": "103220358081369977416",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hikma-app-service-account%40hikmahealth.iam.gserviceaccount.com"
+}
