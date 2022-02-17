@@ -1,0 +1,17 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: run-full-export
+spec:
+  schedule: "0 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: run-full-export
+            image: gcr.io/hikmahealth/hikma-health-backend:6bd08cf7ea576332275b75a62ace783a8509179a
+            command:
+            - /bin/bash
+            - run-export.sh
+          restartPolicy: OnFailure

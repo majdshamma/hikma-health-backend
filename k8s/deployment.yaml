@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hikma-health-backend
+  name: hikma-health-backend
+  namespace: default
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 2
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: hikma-health-backend
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: hikma-health-backend
+    spec:
+      containers:
+      - image: gcr.io/hikmahealth/hikma-health-backend:6bd08cf7ea576332275b75a62ace783a8509179a
+        imagePullPolicy: IfNotPresent
+        name: hikma-health-backend
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        ports:
+          - containerPort: 8080
+            protocol: TCP
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          periodSeconds: 30
+          successThreshold: 1
+          failureThreshold: 3
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          periodSeconds: 30
+          successThreshold: 1
+          failureThreshold: 5
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
